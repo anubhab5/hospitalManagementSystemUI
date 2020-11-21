@@ -1,0 +1,24 @@
+.container {
+    margin-top: 1rem;
+}
+
+.card {
+    .card-body {
+        text-align: center;
+        font-weight: 400;
+        font-size: 1.5rem;
+    }
+    .admin {
+        color: red;
+    }
+    .doctor {
+        color: gray;
+    }
+    .patient {
+        color: rgb(12, 99, 99);
+    }
+}
+
+.card:hover {
+    cursor: pointer;
+}
