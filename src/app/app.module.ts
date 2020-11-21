@@ -6,17 +6,19 @@ import { AppComponent } from './app.component';
 import { SideNavComponent } from './side-nav/side-nav.component';
 import { HomeScreenComponent } from './home-screen/home-screen.component';
 import { AdminModule } from './admin/admin.module';
+import { DoctorModule } from './doctor/doctor.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     SideNavComponent,
-    HomeScreenComponent,
+    HomeScreenComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AdminModule
+    AdminModule,
+    DoctorModule
   ],
   providers: [],
   bootstrap: [AppComponent]

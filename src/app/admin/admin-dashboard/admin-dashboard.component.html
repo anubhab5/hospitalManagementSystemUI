@@ -1,1 +1,43 @@
-<p>admin-dashboard works!</p>
+<div class='container'>
+    <div class="row">
+        <div (click)='navigateTo("admin/admin-view")' class="col-lg-4 col-md-4 col-sm-4 col-12">
+            <div class="card">
+                <img class="card-img-top" src="../../assets/images/avatar5.png" alt="image" style="width:100%">
+                <div class="card-body admin">
+                    <div class='card-body-text'>
+                        Admin
+                    </div>
+                    <div class='card-body-icon'>
+                        <span><i class='fa fa-list view-all'></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div (click)='navigateTo("admin/doctor-view")' class="col-lg-4 col-md-4 col-sm-4 col-12">
+            <div class="card">
+                <img class="card-img-top" src="../../assets/images/doctor-avatar-2.png" alt="image" style="width:100%">
+                <div class="card-body doctor">
+                    <div class='card-body-text'>
+                        Doctor
+                    </div>
+                    <div class='card-body-icon'>
+                        <span title='View All Doctors'><i class='fa fa-list view-all'></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div (click)='navigateTo("admin/patient-view")' class="col-lg-4 col-md-4 col-sm-4 col-12">
+            <div class="card">
+                <img class="card-img-top" src="../../assets/images/avatar-patient.png" alt="image" style="width:100%">
+                <div class="card-body patient">
+                    <div class='card-body-text'>
+                        Patient
+                    </div>
+                    <div class='card-body-icon'>
+                        <span><i class='fa fa-list view-all'></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

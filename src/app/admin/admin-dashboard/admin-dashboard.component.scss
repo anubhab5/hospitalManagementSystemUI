@@ -1,0 +1,39 @@
+.container {
+    margin-top: 1rem;
+}
+
+.card {
+    .card-body {
+        display: flex;
+        justify-content: space-between;
+        font-weight: 400;
+        font-size: 1.5rem;
+        .card-body-text {
+            text-align: left;
+        }
+        .card-body-icon {
+            i {
+                margin: 0 5px;
+            }
+            .view-all {
+                color: violet;
+            }
+            .add-item {
+                color: #5252dd;
+            }
+        }
+    }
+    .admin {
+        color: red;
+    }
+    .doctor {
+        color: gray;
+    }
+    .patient {
+        color: rgb(12, 99, 99);
+    }
+}
+
+.card:hover {
+    cursor: pointer;
+}

@@ -16,7 +16,7 @@ const routes: Routes = [
   },
   {
     path: 'admin',
-    component: AdminDashboardComponent
+    loadChildren: './admin/admin.module#AdminModule'
   }
 ];
 
