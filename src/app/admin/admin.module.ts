@@ -5,6 +5,7 @@ import { AdminOnboardComponent } from './admin-onboard/admin-onboard.component';
 import { DoctorOnboardComponent } from './doctor-onboard/doctor-onboard.component';
 import { PatientOnboardComponent } from './patient-onboard/patient-onboard.component';
 import { AdminRoutingModule } from './admin-routing.module';
+import { AdminService } from './services/admin.service';
 
 
 
@@ -13,6 +14,9 @@ import { AdminRoutingModule } from './admin-routing.module';
   imports: [
     CommonModule,
     AdminRoutingModule
+  ],
+  providers:[
+    AdminService
   ]
 })
 export class AdminModule { }

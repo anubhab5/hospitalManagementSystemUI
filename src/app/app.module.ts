@@ -7,6 +7,7 @@ import { SideNavComponent } from './side-nav/side-nav.component';
 import { HomeScreenComponent } from './home-screen/home-screen.component';
 import { AdminModule } from './admin/admin.module';
 import { DoctorModule } from './doctor/doctor.module';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { DoctorModule } from './doctor/doctor.module';
     BrowserModule,
     AppRoutingModule,
     AdminModule,
-    DoctorModule
+    DoctorModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
